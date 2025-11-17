@@ -17,12 +17,14 @@ const CARD_HEIGHT = 360;
 const MEDIA_HEIGHT = 200;
 
 const PortfolioGallery = ({ limit }) => {
-	const items = limit ? works.slice(0, limit) : works;
 	const location = useLocation();
 	const onProjectsPage = location.pathname.startsWith("/projects");
 
+	const defaultLimit = onProjectsPage ? undefined : 3;
+	const items = works.slice(0, limit ?? defaultLimit);
+
 	return (
-		<Container maxWidth='lg' sx={{ py: 4 }}>
+		<Container sx={{ py: 3 }}>
 			<Box
 				sx={{
 					display: "flex",
@@ -31,22 +33,17 @@ const PortfolioGallery = ({ limit }) => {
 					alignItems: "center",
 				}}
 			>
-				<Typography
-					variant='h4'
-					sx={{ color: "secondary.main", fontWeight: 800 }}
-				>
+				<Typography variant='h4' sx={{ color: "secondary.main", fontWeight: 800 }}>
 					Featured Work
 				</Typography>
 
 				{!onProjectsPage && (
-					<Typography
-						component={RouterLink}
-						to='/projects'
+					<Typography	component={RouterLink} to='/projects'
 						sx={{
 							textDecoration: "none",
 							color: "text.secondary",
-							fontSize: 20,
-							fontWeight: 800,
+							fontSize: 14,
+							fontWeight: 700,
 						}}
 					>
 						See all projects →
@@ -55,49 +52,38 @@ const PortfolioGallery = ({ limit }) => {
 			</Box>
 			<Box
 				sx={{
-					height: "60vh",
+					height: `${onProjectsPage ? "70vh" : "40vh"}`,
 					overflowY: "auto",
 					pr: 1,
 					"&::-webkit-scrollbar": {
-					width: "8px",
+						width: "8px",
 					},
 					"&::-webkit-scrollbar-track": {
-					background: "transparent",
+						background: "transparent",
 					},
 					"&::-webkit-scrollbar-thumb": {
-					backgroundColor: "rgba(255, 255, 255, 0.2)",
-					borderRadius: "8px",
+						backgroundColor: "rgba(255, 255, 255, 0.2)",
+						borderRadius: "8px",
 					},
 					"&::-webkit-scrollbar-thumb:hover": {
-					backgroundColor: "rgba(255, 255, 255, 0.35)",
+						backgroundColor: "rgba(255, 255, 255, 0.35)",
 					},
-
 				}}
 			>
 				<Grid
 					container
 					spacing={3}
-					sx={{
-						justifyContent: "center",
-					}}
+					sx={{ justifyContent: "center"}}
 				>
 					{items.map((work) => (
-						<Grid
-							item
-							key={work.id}
+						<Grid item key={work.id}
 							sx={{
-								width: {
-									xs: "100%",
-									sm: `calc(50% - 12px)`,
-									md: `${CARD_WIDTH}px`,
-								},
+								width: { xs: "100%", sm: `calc(50% - 12px)`, md: `${CARD_WIDTH}px` },
 								display: "flex",
 								justifyContent: "center",
 							}}
 						>
-							<Card
-								component={RouterLink}
-								to={`/projects/${work.slug}`}
+							<Card component={RouterLink} to={`/projects/${work.slug}`}
 								sx={{
 									width: "100%",
 									maxWidth: `${CARD_WIDTH}px`,
@@ -142,9 +128,7 @@ const PortfolioGallery = ({ limit }) => {
 										{work.title}
 									</Typography>
 
-									<Typography
-										variant='body2'
-										color='text.secondary'
+									<Typography variant='body2' color='text.secondary'
 										sx={{
 											display: "-webkit-box",
 											WebkitLineClamp: 2,

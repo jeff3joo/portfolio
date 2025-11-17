@@ -93,32 +93,16 @@ export const Header = () => {
 				</>
 			) : (
 				<Box sx={{ display: "flex", gap: 2 }}>
-					<Button
-						component={RouterLink}
-						to='/'
-						sx={{ color: "secondary.main" }}
-					>
+					<Button component={RouterLink} to='/' sx={{ color: "secondary.main" }}>
 						Home
 					</Button>
-					<Button
-						component={RouterLink}
-						to='/about'
-						sx={{ color: "secondary.main" }}
-					>
+					<Button component={RouterLink} to='/about' sx={{ color: "secondary.main" }}>
 						About
 					</Button>
-					<Button
-						component={RouterLink}
-						to='/projects'
-						sx={{ color: "secondary.main" }}
-					>
+					<Button component={RouterLink} to='/projects' sx={{ color: "secondary.main" }}>
 						Projects
 					</Button>
-					<Button
-						component={RouterLink}
-						to='/contact'
-						sx={{ color: "secondary.main" }}
-					>
+					<Button component={RouterLink} to='/contact' sx={{ color: "secondary.main" }}>
 						Contact
 					</Button>
                     <Avatar

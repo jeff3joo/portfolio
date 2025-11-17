@@ -78,7 +78,7 @@ const Contact = () => {
 				variant='h3'
 				component='h1'
 				align='center'
-				sx={{ mb: 2, color: "secondary.main", fontWeight: 800 }}
+				sx={{ pb:4, color: "secondary.main", fontWeight: 800 }}
 			>
 				Get In Touch
 			</Typography>

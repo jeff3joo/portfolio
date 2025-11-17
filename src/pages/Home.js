@@ -4,13 +4,12 @@ import { Box, Button, Container, Typography, Grid } from "@mui/material";
 
 const Home = () => {
 	return (
-		<Container maxWidth='lg' sx={{ pb: 8 }}>
+		<Container maxWidth='lg' >
 			<Box
 				sx={{
 					display: "flex",
 					alignItems: "center",
-					gap: 6,
-					paddingTop: { xs: 6, md: 12 },
+					paddingTop: 4,
 				}}
 			>
 				<Grid container spacing={4} alignItems='center'>
@@ -24,7 +23,7 @@ const Home = () => {
 							</Typography>
 
 							<Typography
-								variant='h3'
+								variant='h4'
 								component='h1'
 								sx={{
 									fontWeight: 800,
@@ -32,16 +31,17 @@ const Home = () => {
 									mb: 2,
 								}}
 							>
-								Building stylized assets, product animations, and low poly
-								assets.
+								Crafting stylized 3D assets, product animations, and clean
+								low-poly scenes.
 							</Typography>
 
 							<Typography
-								sx={{ color: "text.secondary", maxWidth: 600, mb: 3 }}
+								sx={{ color: "text.secondary", mb: 2 }}
+								variant="h6"
 							>
-								Full-stack dev pivoting into the 3D world — building clean
-								models, stylized scenes, and product-style animations. Check out
-								the featured pieces or jump into the full case studies.
+								Full-stack dev transitioning into the 3D world — blending
+								design, animation, and real-time workflows. Explore featured
+								work or dive into full breakdowns of how each project was built.
 							</Typography>
 
 							<Box sx={{ display: "flex", gap: 2 }}>
@@ -71,9 +71,7 @@ const Home = () => {
 					</Grid>
 				</Grid>
 			</Box>
-			<Box sx={{ mt: 6 }}>
-				<PortfolioGallery limit={3} />
-			</Box>
+			<PortfolioGallery limit={3} />
 		</Container>
 	);
 };

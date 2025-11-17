@@ -8,10 +8,10 @@ const works = [
 		image: "/assets/projects/game-animation/game_animation.png",
 		glb: "/assets/projects/game-animation/game_animation.glb",
 		renders: [
-      "/assets/projects/game-animation/game_animation.mp4",
-      "/assets/projects/game-animation/game_animation.png"
-    ],
-		tags: ["Low Poly", "Game Animation", "Environment"]
+			"/assets/projects/game-animation/game_animation.mp4",
+			"/assets/projects/game-animation/game_animation.png",
+		],
+		tags: ["Low Poly", "Game Animation", "Environment"],
 	},
 	{
 		id: 2,
@@ -25,7 +25,7 @@ const works = [
 			"/assets/projects/wireless-pods/wireless_pods_animation.mp4",
 			"/assets/projects/wireless-pods/wireless_pods_animation.png",
 		],
-		tags: ["Product Animation", "Shading", "Hard Surface"]
+		tags: ["Product Animation", "Shading", "Hard Surface"],
 	},
 	{
 		id: 3,
@@ -39,7 +39,7 @@ const works = [
 			"/assets/projects/dungeon/dungeon-1.png",
 			"/assets/projects/dungeon/dungeon-2.png",
 		],
-		tags: ["Environment", "Modular Assets", "Stylized"]
+		tags: ["Environment", "Modular Assets", "Stylized"],
 	},
 	{
 		id: 4,
@@ -50,10 +50,10 @@ const works = [
 		image: "/assets/projects/flag-simulation/flag_simulation.png",
 		glb: "/assets/projects/flag-simulation/flag_simulation.glb",
 		renders: [
-      "/assets/projects/flag-simulation/flag_simulation.mp4",
-      "/assets/projects/flag-simulation/flag_simulation.png",
-    ],
-		tags: ["Cloth Simulation", "Animation", "Shading"]
+			"/assets/projects/flag-simulation/flag_simulation.mp4",
+			"/assets/projects/flag-simulation/flag_simulation.png",
+		],
+		tags: ["Cloth Simulation", "Animation", "Shading"],
 	},
 	{
 		id: 5,
@@ -64,7 +64,7 @@ const works = [
 		image: "/assets/projects/light-house/light-house.png",
 		glb: "/assets/projects/light-house/light-house.glb",
 		renders: ["/assets/projects/light-house/light-house.png"],
-		tags: ["Environment", "Lighting", "Stylized"]
+		tags: ["Environment", "Lighting", "Stylized"],
 	},
 	{
 		id: 6,
@@ -75,7 +75,7 @@ const works = [
 		image: "/assets/projects/low_poly_dinosaur/low_poly_dinosaur.png",
 		glb: "/assets/projects/low_poly_dinosaur/low_poly_dinosaur.glb",
 		renders: ["/assets/projects/low_poly_dinosaur/low_poly_dinosaur.png"],
-		tags: ["Low Poly", "Character", "Environment"]
+		tags: ["Low Poly", "Character", "Environment"],
 	},
 	{
 		id: 7,
@@ -89,7 +89,7 @@ const works = [
 			"/assets/projects/plane-animation/plane-animation.mp4",
 			"/assets/projects/plane-animation/plane-animation.png",
 		],
-		tags: ["UV Mapping", "Animation", "Modeling"]
+		tags: ["UV Mapping", "Animation", "Modeling"],
 	},
 	{
 		id: 8,
@@ -105,7 +105,7 @@ const works = [
 			"/assets/projects/popsicles/popsicle-1.png",
 			"/assets/projects/popsicles/popsicle-2.png",
 		],
-		tags: ["Product Animation", "Shading", "Stylized"]
+		tags: ["Product Animation", "Shading", "Stylized"],
 	},
 	{
 		id: 9,
@@ -116,7 +116,7 @@ const works = [
 		image: "/assets/projects/portal/portal.png",
 		glb: "/assets/projects/portal/portal.glb",
 		renders: ["/assets/projects/portal/portal.png"],
-		tags: ["Low Poly", "Game Asset", "Stylized"]
+		tags: ["Low Poly", "Game Asset", "Stylized"],
 	},
 	{
 		id: 10,
@@ -127,12 +127,12 @@ const works = [
 		image: "/assets/projects/sci-fi-environment/sci-fi-environment-2.png",
 		glb: "/assets/projects/sci-fi-environment/sci-fi-environment.glb",
 		renders: [
-      "/assets/projects/sci-fi-environment/sci-fi-environment.mp4",
+			"/assets/projects/sci-fi-environment/sci-fi-environment.mp4",
 			"/assets/projects/sci-fi-environment/sci-fi-environment-2.png",
 			"/assets/projects/sci-fi-environment/sci-fi-environment-1.png",
 			"/assets/projects/sci-fi-environment/sci-fi-environment-3.png",
 		],
-		tags: ["Sci-Fi", "Environment", "Procedural Nodes"]
+		tags: ["Sci-Fi", "Environment", "Procedural Nodes"],
 	},
 	{
 		id: 11,
@@ -146,7 +146,7 @@ const works = [
 			"/assets/projects/sculpt-cartoon-demon/sculpt-cartoon-demon.mp4",
 			"/assets/projects/sculpt-cartoon-demon/sculpt-cartoon-demon.png",
 		],
-		tags: ["Sculpting", "Character", "Stylized"]
+		tags: ["Sculpting", "Character", "Stylized"],
 	},
 	{
 		id: 12,
@@ -160,7 +160,7 @@ const works = [
 			"/assets/projects/tv-walk-animation/tv-walk-animation.mp4",
 			"/assets/projects/tv-walk-animation/tv-walk-animation.png",
 		],
-		tags: ["Rigging", "Character Animation", "Stylized"]
+		tags: ["Rigging", "Character Animation", "Stylized"],
 	},
 ];
 

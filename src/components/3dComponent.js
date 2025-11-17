@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const ModelViewer = ({ src, height = 600, autoRotate = true, onError }) => {
   const [errored, setErrored] = useState(false);
