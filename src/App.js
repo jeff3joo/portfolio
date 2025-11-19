@@ -14,15 +14,24 @@ function App() {
 	return (
 		<ThemeProvider theme={theme}>
 			<CssBaseline />
-			<Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+			<Box
+				sx={{
+					display: "flex",
+					flexDirection: "column",
+					minHeight: {
+						xs: "80vh",
+						lg: "100vh",
+					},
+				}}
+			>
 				<Header />
-				<Box component="main" sx={{ flexGrow: 1 }}>
+				<Box component='main' sx={{ flexGrow: 1 }}>
 					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="/about" element={<About />} />
-						<Route path="/contact" element={<Contact />} />
-						<Route path="/projects" element={<Projects />} />
-						<Route path="/projects/:slug" element={<ProjectDetail />} />
+						<Route path='/' element={<Home />} />
+						<Route path='/about' element={<About />} />
+						<Route path='/contact' element={<Contact />} />
+						<Route path='/projects' element={<Projects />} />
+						<Route path='/projects/:slug' element={<ProjectDetail />} />
 					</Routes>
 				</Box>
 				<Footer />

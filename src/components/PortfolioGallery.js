@@ -157,7 +157,7 @@ const PortfolioGallery = ({ limit }) => {
 												sx={{
 													backgroundColor: "secondary.main",
 													color: "secondary.contrastText",
-													fontWeight: "bold",
+													fontWeight: "400",
 												}}
 											/>
 										))}

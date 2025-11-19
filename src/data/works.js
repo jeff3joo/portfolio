@@ -36,6 +36,7 @@ const works = [
 		image: "/assets/projects/dungeon/dungeon-2.png",
 		glb: "/assets/projects/dungeon/dungeon.glb",
 		renders: [
+			"/assets/projects/dungeon/dungeon.mp4",
 			"/assets/projects/dungeon/dungeon-1.png",
 			"/assets/projects/dungeon/dungeon-2.png",
 		],
@@ -100,6 +101,7 @@ const works = [
 		image: "/assets/projects/popsicles/popsicle-3.png",
 		glb: "/assets/projects/popsicles/popsicle.glb",
 		renders: [
+			"/assets/projects/popsicles/popsicle.mp4",
 			"/assets/projects/popsicles/popsicle-3.png",
 			"/assets/projects/popsicles/popsicle-4.png",
 			"/assets/projects/popsicles/popsicle-1.png",

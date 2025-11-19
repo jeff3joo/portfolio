@@ -13,19 +13,39 @@ import {
 
 const About = () => {
 	return (
-		<Container maxWidth='lg' sx={{ py: 6 }}>
+		<Container
+			maxWidth='lg'
+			sx={{
+				py: {
+					xs: 4,
+					sm: 4,
+					md: 4,
+					lg: 6,
+				},
+			}}
+		>
 			<Typography
 				variant='h3'
 				component='h1'
 				align='center'
-				sx={{ mb: 4, color: "secondary.main", fontWeight: 800 }}
+				sx={{
+					mb: 4,
+					color: "secondary.main",
+					fontWeight: 700,
+					fontSize: { xs: "1.8em", sm: "1.8em", md: "2em", lg: "2.4em" },
+				}}
 			>
 				About Me
 			</Typography>
 
 			<Box
 				sx={{
-					height: "55vh",
+					height: {
+						xs: "55vh",
+						sm: "55vh",
+						md: "60vh",
+						lg: "60vh",
+					},
 					overflowY: "auto",
 					pr: 1,
 					"&::-webkit-scrollbar": {
@@ -98,7 +118,7 @@ const About = () => {
 								fullWidth
 								href='/resume.pdf'
 								download='Resume.pdf'
-								sx={{ fontWeight: "bold", mt: 2 }}
+								sx={{ mt: 2 }}
 							>
 								Download Resume
 							</Button>
@@ -200,8 +220,7 @@ const About = () => {
 												backgroundColor: "secondary.main",
 												color: "secondary.contrastText",
 												fontWeight: "bold",
-												mb: 1,
-												mr: 1,
+												margin: 1,
 											}}
 										/>
 									))}

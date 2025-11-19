@@ -78,7 +78,12 @@ const Contact = () => {
 				variant='h3'
 				component='h1'
 				align='center'
-				sx={{ pb:4, color: "secondary.main", fontWeight: 800 }}
+				sx={{
+					pb: 4,
+					color: "secondary.main",
+					fontWeight: 400,
+					fontSize: { xs: "1.8em", sm: "1.8em", md: "2em", lg: "2.4em" },
+				}}
 			>
 				Get In Touch
 			</Typography>
@@ -263,7 +268,16 @@ const Contact = () => {
 							>
 								<Typography
 									variant='h4'
-									sx={{ color: "secondary.main", fontWeight: 800 }}
+									sx={{
+										color: "secondary.main",
+										fontWeight: 400,
+										fontSize: {
+											xs: "1.6em",
+											sm: "1.6em",
+											md: "1.8em",
+											lg: "1.8em",
+										},
+									}}
 								>
 									Send a Message
 								</Typography>
@@ -378,7 +392,7 @@ const Contact = () => {
 										size='large'
 										width={"30%"}
 										disabled={isSubmitting}
-										sx={{ fontWeight: "bold" }}
+										sx={{ fontSize: "0.8em" }}
 									>
 										{isSubmitting ? "Preparing..." : "Send Message"}
 									</Button>

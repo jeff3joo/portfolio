@@ -28,7 +28,8 @@ const Home = () => {
 								sx={{
 									fontWeight: 800,
 									lineHeight: 1.05,
-									mb: 2,
+									mb: 1,
+									fontSize: {xs :"1.4em", sm: "1.6em", md: "1.8em", lg: "2.4em"}
 								}}
 							>
 								Crafting stylized 3D assets, product animations, and clean
@@ -36,7 +37,12 @@ const Home = () => {
 							</Typography>
 
 							<Typography
-								sx={{ color: "text.secondary", mb: 2 }}
+								sx={{ 
+									color: "text.secondary", 
+									mb: 2,
+									fontSize: {xs :"1em", sm: "1em", md: "1.2em", lg: "1.2em"},
+									fontWeight: 400
+								 }}
 								variant="h6"
 							>
 								Full-stack dev transitioning into the 3D world — blending
@@ -48,7 +54,6 @@ const Home = () => {
 								<Button
 									variant='contained'
 									color='secondary'
-									size='large'
 									component={RouterLink}
 									to='/projects'
 									sx={{ fontWeight: "bold" }}
@@ -59,7 +64,6 @@ const Home = () => {
 								<Button
 									variant='outlined'
 									color='secondary'
-									size='large'
 									component={RouterLink}
 									to='/about'
 									sx={{ fontWeight: "bold" }}
