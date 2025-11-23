@@ -23,7 +23,7 @@ const ProjectDetail = () => {
 
 	return (
 		<Container maxWidth='lg' sx={{ py: 4 }}>
-			<Typography variant='h3' sx={{ mb: 2 }}>
+			<Typography variant='h4' sx={{ mb: 2 }}>
 				{work.title}
 			</Typography>
 			<Typography variant='subtitle1' color='text.secondary' sx={{ mb: 3 }}>
@@ -33,14 +33,14 @@ const ProjectDetail = () => {
 			{work.glb && !modelError ? (
 				<ModelViewer
 					src={work.glb}
-					height={600}
+					height={400}
 					onError={() => setModelError(true)}
 				/>
 			) : (
 				<Box
 					sx={{
 						width: "100%",
-						height: 600,
+						height: 400,
 						background: "#111",
 						display: "flex",
 						alignItems: "center",
@@ -102,7 +102,8 @@ const ProjectDetail = () => {
 
 			<Box sx={{ mt: 3, display: "flex", gap: 2 }}>
 				{work.glb && (
-					<Button href={work.glb} download variant='outlined'>
+					<Button href={work.glb} download variant='outlined' 									color='secondary'
+>
 						Download .glb
 					</Button>
 				)}
