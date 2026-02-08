@@ -1,6 +1,51 @@
 const works = [
 	{
 		id: 1,
+		slug: "shooter-sam",
+		title: "Shooter Sam Game",
+		description:
+		    "This game went deep into third-person shooting mechanics, Sounds , animation systems, AI with Behavior Trees, combat logic, HUDs, level polish, animation, and AI into a shippable experience.",
+		image: "/assets/projects/shooter-sam/shooter-sam.png",
+		renders: [
+			"/assets/projects/shooter-sam/shooter-sam.mp4",
+		],
+		tags: ["Game Development", "AI Enemy", "Shooting Game"],
+	},
+	{
+		id: 2,
+		slug: "battle-blaster",
+		title: "Battle Blaster Game",
+		description:"In this game I have used input systems, AI behavior, damage handling, UI widgets, timers, particles, audio — basically the “real dev stuff” behind the fun.",
+		image: "/assets/projects/battle-blaster/battle-blaster.png",
+		renders: [
+			"/assets/projects/battle-blaster/battle-blaster.mp4",
+		],
+		tags: ["Game Development", "Projectile", "Camera Effects"],
+	},
+	{
+		id: 3,
+		slug: "object-assault",
+		title: "Object Assault Game",
+		description:"In this Game dived into the fundamentals that actually make a game move — from geometry brushes and live coding to vectors, delta time, actor movement, rotation, physics, and building reusable classes.",
+		image: "/assets/projects/object-assault/object-assault.png",
+		renders: [
+			"/assets/projects/object-assault/object-assault.mp4",	
+		],
+		tags: ["Game Development", "Rotation", "Movement"],
+	},
+	{
+		id: 4,
+		slug: "dungeon-escape",
+		title: "Dungeon Escape Game",
+		description:"In this game went deep into gameplay systems: actor components, pointers & references, delegates, collision, tracing, enhanced input, and clean C++ architecture with Blueprint integration. Built mechanics like pressure plates, locks, secret walls, and item-based progression.",
+		image: "/assets/projects/dungeon-escape/dungeon-escape.png",
+		renders: [
+			"/assets/projects/dungeon-escape/dungeon-escape.mp4",
+		],
+		tags: ["Game Development", "Trigger", "Projectile"],
+	},
+	{
+		id: 5,
 		slug: "game-animation",
 		title: "Game Scenario Animation",
 		description:
@@ -14,7 +59,7 @@ const works = [
 		tags: ["Low Poly", "Game Animation", "Environment"],
 	},
 	{
-		id: 2,
+		id: 6,
 		slug: "wireless-pods",
 		title: "Wireless Pods Animation",
 		description:
@@ -28,7 +73,7 @@ const works = [
 		tags: ["Product Animation", "Shading", "Hard Surface"],
 	},
 	{
-		id: 3,
+		id: 7,
 		slug: "Dungeon",
 		title: "Gaming Dungeon",
 		description:
@@ -43,7 +88,7 @@ const works = [
 		tags: ["Environment", "Modular Assets", "Stylized"],
 	},
 	{
-		id: 4,
+		id: 8,
 		slug: "flag-simulation",
 		title: "Flag Animation",
 		description:
@@ -57,7 +102,7 @@ const works = [
 		tags: ["Cloth Simulation", "Animation", "Shading"],
 	},
 	{
-		id: 5,
+		id: 9,
 		slug: "light-house",
 		title: "Light House",
 		description:
@@ -68,7 +113,7 @@ const works = [
 		tags: ["Environment", "Lighting", "Stylized"],
 	},
 	{
-		id: 6,
+		id: 10,
 		slug: "low_poly_dinosaur",
 		title: "Low Poly Dinosaur",
 		description:
@@ -79,7 +124,7 @@ const works = [
 		tags: ["Low Poly", "Character", "Environment"],
 	},
 	{
-		id: 7,
+		id: 11,
 		slug: "plane-animation",
 		title: "Plane Animation",
 		description:
@@ -93,7 +138,7 @@ const works = [
 		tags: ["UV Mapping", "Animation", "Modeling"],
 	},
 	{
-		id: 8,
+		id: 12,
 		slug: "popsicle",
 		title: "Popsicle Animation",
 		description:
@@ -110,7 +155,7 @@ const works = [
 		tags: ["Product Animation", "Shading", "Stylized"],
 	},
 	{
-		id: 9,
+		id: 13,
 		slug: "portal",
 		title: "Portal Low Poly Asset",
 		description:
@@ -121,7 +166,7 @@ const works = [
 		tags: ["Low Poly", "Game Asset", "Stylized"],
 	},
 	{
-		id: 10,
+		id: 14,
 		slug: "sci-fi-environment",
 		title: "Sci-fi Environment",
 		description:
@@ -137,7 +182,7 @@ const works = [
 		tags: ["Sci-Fi", "Environment", "Procedural Nodes"],
 	},
 	{
-		id: 11,
+		id: 15,
 		slug: "sculpt-cartoon-demon",
 		title: "Cartoon Demon",
 		description:
@@ -151,7 +196,7 @@ const works = [
 		tags: ["Sculpting", "Character", "Stylized"],
 	},
 	{
-		id: 12,
+		id: 16,
 		slug: "tv-walk-animation",
 		title: "Character Walking Animation",
 		description:
