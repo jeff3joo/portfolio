@@ -1,26 +1,28 @@
 const works = [
 	{
 		id: 1,
-		slug: "shooter-sam",
-		title: "Shooter Sam Game",
-		description:
-		    "This game went deep into third-person shooting mechanics, Sounds , animation systems, AI with Behavior Trees, combat logic, HUDs, level polish, animation, and AI into a shippable experience.",
-		image: "/assets/projects/shooter-sam/shooter-sam.png",
-		renders: [
-			"/assets/projects/shooter-sam/shooter-sam.mp4",
-		],
-		tags: ["Game Development", "AI Enemy", "Shooting Game"],
-	},
-	{
-		id: 2,
 		slug: "battle-blaster",
 		title: "Battle Blaster Game",
 		description:"In this game I have used input systems, AI behavior, damage handling, UI widgets, timers, particles, audio — basically the “real dev stuff” behind the fun.",
 		image: "/assets/projects/battle-blaster/battle-blaster.png",
 		renders: [
 			"/assets/projects/battle-blaster/battle-blaster.mp4",
+			"/assets/projects/battle-blaster/battle-blaster.png",
+			"/assets/projects/battle-blaster/battle-blaster-1.png"
 		],
 		tags: ["Game Development", "Projectile", "Camera Effects"],
+	},
+	{
+		id: 2,
+		slug: "shooter-sam",
+		title: "Shooter Sam Game",
+		description:
+			"This game went deep into third-person shooting mechanics, Sounds , animation systems, AI with Behavior Trees, combat logic, HUDs, level polish, animation, and AI into a shippable experience.",
+		image: "/assets/projects/shooter-sam/shooter-sam.png",
+		renders: [
+			"/assets/projects/shooter-sam/shooter-sam.mp4",
+		],
+		tags: ["Game Development", "AI Enemy", "Shooting Game"],
 	},
 	{
 		id: 3,
