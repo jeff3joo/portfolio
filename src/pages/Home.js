@@ -4,7 +4,7 @@ import { Box, Button, Container, Typography, Grid } from "@mui/material";
 
 const Home = () => {
 	return (
-		<Container maxWidth='lg' >
+		<Container maxWidth='lg'>
 			<Box
 				sx={{
 					display: "flex",
@@ -19,7 +19,7 @@ const Home = () => {
 								variant='overline'
 								sx={{ color: "secondary.main", fontWeight: 700, mb: 1 }}
 							>
-								Jeff — Developer, 3D Designer
+								Jeff — Full Stack Developer & Game Dev | 3D Designer
 							</Typography>
 
 							<Typography
@@ -29,25 +29,31 @@ const Home = () => {
 									fontWeight: 800,
 									lineHeight: 1.05,
 									mb: 1,
-									fontSize: {xs :"1.4em", sm: "1.6em", md: "1.8em", lg: "2.4em"}
+									fontSize: {
+										xs: "1.4em",
+										sm: "1.6em",
+										md: "1.8em",
+										lg: "2.4em",
+									},
 								}}
 							>
-								Crafting stylized 3D assets, product animations, and clean
-								low-poly scenes.
+								Game Developer focused on gameplay systems and
+								performance-driven experiences, with 2+ years of Full Stack
+								development experience.
 							</Typography>
 
 							<Typography
-								sx={{ 
-									color: "text.secondary", 
+								sx={{
+									color: "text.secondary",
 									mb: 2,
-									fontSize: {xs :"1em", sm: "1em", md: "1.2em", lg: "1.2em"},
-									fontWeight: 400
-								 }}
-								variant="h6"
+									fontSize: { xs: "1em", sm: "1em", md: "1.2em", lg: "1.2em" },
+									fontWeight: 400,
+								}}
+								variant='h6'
 							>
-								Full-stack dev transitioning into the 3D world — blending
-								design, animation, and real-time workflows. Explore featured
-								work or dive into full breakdowns of how each project was built.
+								Game developer focused on gameplay systems and real-time
+								experiences. Explore featured projects or dive into detailed
+								breakdowns of how each was built.
 							</Typography>
 
 							<Box sx={{ display: "flex", gap: 2 }}>

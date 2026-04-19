@@ -1,6 +1,18 @@
 const works = [
 	{
 		id: 1,
+		slug: "run-rail",
+		title: "Run Rail Game",
+		description: "Endless runner game with procedural level generation with object looping, dynamic obstacles built in Unity with C#",
+		image: "/assets/projects/run-rail/run-rail.png",
+		renders: [
+			"/assets/projects/run-rail/run-rail.mp4",
+			"/assets/projects/run-rail/run-rail.png",
+		],
+		tags: ["Game Dev", "Object Looping", "Endless Runner"],
+	},
+	{
+		id: 2,
 		slug: "battle-blaster",
 		title: "Battle Blaster Game",
 		description:"In this game I have used input systems, AI behavior, damage handling, UI widgets, timers, particles, audio — basically the “real dev stuff” behind the fun.",
@@ -10,10 +22,10 @@ const works = [
 			"/assets/projects/battle-blaster/battle-blaster.png",
 			"/assets/projects/battle-blaster/battle-blaster-1.png"
 		],
-		tags: ["Game Development", "Projectile", "Camera Effects"],
+		tags: ["Game Dev", "Projectile", "Camera Effects"],
 	},
 	{
-		id: 2,
+		id: 3,
 		slug: "shooter-sam",
 		title: "Shooter Sam Game",
 		description:
@@ -22,10 +34,10 @@ const works = [
 		renders: [
 			"/assets/projects/shooter-sam/shooter-sam.mp4",
 		],
-		tags: ["Game Development", "AI Enemy", "Shooting Game"],
+		tags: ["Game Dev", "AI Enemy", "Shooting Game"],
 	},
 	{
-		id: 3,
+		id: 4,
 		slug: "object-assault",
 		title: "Object Assault Game",
 		description:"In this Game dived into the fundamentals that actually make a game move — from geometry brushes and live coding to vectors, delta time, actor movement, rotation, physics, and building reusable classes.",
@@ -33,10 +45,10 @@ const works = [
 		renders: [
 			"/assets/projects/object-assault/object-assault.mp4",	
 		],
-		tags: ["Game Development", "Rotation", "Movement"],
+		tags: ["Game Dev", "Rotation", "Movement"],
 	},
 	{
-		id: 4,
+		id: 5,
 		slug: "dungeon-escape",
 		title: "Dungeon Escape Game",
 		description:"In this game went deep into gameplay systems: actor components, pointers & references, delegates, collision, tracing, enhanced input, and clean C++ architecture with Blueprint integration. Built mechanics like pressure plates, locks, secret walls, and item-based progression.",
@@ -44,10 +56,10 @@ const works = [
 		renders: [
 			"/assets/projects/dungeon-escape/dungeon-escape.mp4",
 		],
-		tags: ["Game Development", "Trigger", "Projectile"],
+		tags: ["Game Dev", "Trigger", "Projectile"],
 	},
 	{
-		id: 5,
+		id: 6,
 		slug: "game-animation",
 		title: "Game Scenario Animation",
 		description:
@@ -58,10 +70,10 @@ const works = [
 			"/assets/projects/game-animation/game_animation.mp4",
 			"/assets/projects/game-animation/game_animation.png",
 		],
-		tags: ["Low Poly", "Game Animation", "Environment"],
+		tags: ["3D Animation", "Low Poly", "Environment"],
 	},
 	{
-		id: 6,
+		id: 7,
 		slug: "wireless-pods",
 		title: "Wireless Pods Animation",
 		description:
@@ -72,10 +84,10 @@ const works = [
 			"/assets/projects/wireless-pods/wireless_pods_animation.mp4",
 			"/assets/projects/wireless-pods/wireless_pods_animation.png",
 		],
-		tags: ["Product Animation", "Shading", "Hard Surface"],
+		tags: ["3D Product Animation", "Shading", "Hard Surface"],
 	},
 	{
-		id: 7,
+		id: 8,
 		slug: "Dungeon",
 		title: "Gaming Dungeon",
 		description:
@@ -87,10 +99,10 @@ const works = [
 			"/assets/projects/dungeon/dungeon-1.png",
 			"/assets/projects/dungeon/dungeon-2.png",
 		],
-		tags: ["Environment", "Modular Assets", "Stylized"],
+		tags: ["3D Environment", "Modular Assets", "Stylized"],
 	},
 	{
-		id: 8,
+		id: 9,
 		slug: "flag-simulation",
 		title: "Flag Animation",
 		description:
@@ -101,10 +113,10 @@ const works = [
 			"/assets/projects/flag-simulation/flag_simulation.mp4",
 			"/assets/projects/flag-simulation/flag_simulation.png",
 		],
-		tags: ["Cloth Simulation", "Animation", "Shading"],
+		tags: ["3D Animation", "Cloth Simulation", "Shading"],
 	},
 	{
-		id: 9,
+		id: 10,
 		slug: "light-house",
 		title: "Light House",
 		description:
@@ -112,10 +124,10 @@ const works = [
 		image: "/assets/projects/light-house/light-house.png",
 		glb: "/assets/projects/light-house/light-house.glb",
 		renders: ["/assets/projects/light-house/light-house.png"],
-		tags: ["Environment", "Lighting", "Stylized"],
+		tags: ["3D Model", "Lighting", "Stylized"],
 	},
 	{
-		id: 10,
+		id: 11,
 		slug: "low_poly_dinosaur",
 		title: "Low Poly Dinosaur",
 		description:
@@ -123,10 +135,10 @@ const works = [
 		image: "/assets/projects/low_poly_dinosaur/low_poly_dinosaur.png",
 		glb: "/assets/projects/low_poly_dinosaur/low_poly_dinosaur.glb",
 		renders: ["/assets/projects/low_poly_dinosaur/low_poly_dinosaur.png"],
-		tags: ["Low Poly", "Character", "Environment"],
+		tags: ["3D Model", "Character", "Environment"],
 	},
 	{
-		id: 11,
+		id: 12,
 		slug: "plane-animation",
 		title: "Plane Animation",
 		description:
@@ -137,10 +149,10 @@ const works = [
 			"/assets/projects/plane-animation/plane-animation.mp4",
 			"/assets/projects/plane-animation/plane-animation.png",
 		],
-		tags: ["UV Mapping", "Animation", "Modeling"],
+		tags: ["3D Animation", "UV Mapping", "Modeling"],
 	},
 	{
-		id: 12,
+		id: 13,
 		slug: "popsicle",
 		title: "Popsicle Animation",
 		description:
@@ -154,10 +166,10 @@ const works = [
 			"/assets/projects/popsicles/popsicle-1.png",
 			"/assets/projects/popsicles/popsicle-2.png",
 		],
-		tags: ["Product Animation", "Shading", "Stylized"],
+		tags: ["3D Product Animation", "Shading", "Stylized"],
 	},
 	{
-		id: 13,
+		id: 14,
 		slug: "portal",
 		title: "Portal Low Poly Asset",
 		description:
@@ -165,10 +177,10 @@ const works = [
 		image: "/assets/projects/portal/portal.png",
 		glb: "/assets/projects/portal/portal.glb",
 		renders: ["/assets/projects/portal/portal.png"],
-		tags: ["Low Poly", "Game Asset", "Stylized"],
+		tags: ["3D Game Asset", "Low Poly", "Stylized"],
 	},
 	{
-		id: 14,
+		id: 15,
 		slug: "sci-fi-environment",
 		title: "Sci-fi Environment",
 		description:
@@ -181,10 +193,10 @@ const works = [
 			"/assets/projects/sci-fi-environment/sci-fi-environment-1.png",
 			"/assets/projects/sci-fi-environment/sci-fi-environment-3.png",
 		],
-		tags: ["Sci-Fi", "Environment", "Procedural Nodes"],
+		tags: ["3D Environment", "Sci-Fi", "Procedural Nodes"],
 	},
 	{
-		id: 15,
+		id: 16,
 		slug: "sculpt-cartoon-demon",
 		title: "Cartoon Demon",
 		description:
@@ -195,10 +207,10 @@ const works = [
 			"/assets/projects/sculpt-cartoon-demon/sculpt-cartoon-demon.mp4",
 			"/assets/projects/sculpt-cartoon-demon/sculpt-cartoon-demon.png",
 		],
-		tags: ["Sculpting", "Character", "Stylized"],
+		tags: ["3D Sculpting", "Character", "Stylized"],
 	},
 	{
-		id: 16,
+		id: 17,
 		slug: "tv-walk-animation",
 		title: "Character Walking Animation",
 		description:
@@ -209,7 +221,7 @@ const works = [
 			"/assets/projects/tv-walk-animation/tv-walk-animation.mp4",
 			"/assets/projects/tv-walk-animation/tv-walk-animation.png",
 		],
-		tags: ["Rigging", "Character Animation", "Stylized"],
+		tags: ["3D Animation", "Rigging", "Stylized"],
 	},
 ];
 

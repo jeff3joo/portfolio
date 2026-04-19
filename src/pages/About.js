@@ -108,8 +108,9 @@ const About = () => {
 							</Typography>
 
 							<Typography variant='body2' color='text.secondary'>
-								3D Artist focused on stylized assets, product animation, and
-								polished renders.
+								Game developer focused on gameplay systems and real-time
+								experiences, with hands-on experience in 3D workflows and
+								rendering.
 							</Typography>
 
 							<Button
@@ -141,16 +142,16 @@ const About = () => {
 									My Journey
 								</Typography>
 								<Typography variant='body1' sx={{ mb: 1 }}>
-									I’m a 3D designer who loves bringing ideas to life in Blender
-									— from stylized props and product animations to small
-									character & environment studies.
+									I’m a game developer focused on gameplay systems and mechanics
+									in Unity and Unreal Engine, with experience in level design
+									and real-time environments.
 								</Typography>
 								<Typography variant='body1' color='text.secondary'>
-									I approach every project with both a designer’s eye and a
-									developer’s discipline — clean, organized, and always
-									shipping. I'm constantly experimenting with new pipelines,
-									improving my lighting & shading, and building assets that feel
-									polished and portfolio-ready.
+									I approach development with strong attention to structure,
+									performance, and usability — building clean, maintainable
+									systems. I continuously explore new workflows, improve
+									rendering techniques, and focus on delivering production-ready
+									results.
 								</Typography>
 							</Paper>
 
@@ -172,23 +173,24 @@ const About = () => {
 								<Grid container spacing={2}>
 									<Grid item xs={12} sm={6}>
 										<Typography variant='subtitle1' sx={{ fontWeight: 700 }}>
-											3D Modeling
+											Game Development
 										</Typography>
 										<Typography variant='body2' color='text.secondary'>
-											Subdivision modeling, retopology, UV unwrapping,
-											hard-surface forms, organic shapes, clean topology for
-											animation/export.
+											Gameplay systems, core mechanics, player systems, state
+											management, AI basics, physics interactions, and
+											performance-focused development in Unity (C#) and Unreal
+											Engine (C++).
 										</Typography>
 									</Grid>
 
 									<Grid item xs={12} sm={6}>
 										<Typography variant='subtitle1' sx={{ fontWeight: 700 }}>
-											Rendering & Animation
+											3D & Real-Time Workflows
 										</Typography>
 										<Typography variant='body2' color='text.secondary'>
-											Lighting, look-dev, compositing, camera work, basic
-											rigging, character animation, cloth/physics sims,
-											presentation.
+											Working with assets for real-time use, lighting, shading,
+											basic modeling, and optimizing scenes for performance and
+											visual clarity.
 										</Typography>
 									</Grid>
 								</Grid>
@@ -201,16 +203,16 @@ const About = () => {
 
 								<Stack direction='row' spacing={1} flexWrap='wrap'>
 									{[
-										"Blender",
+										"Unity",
+										"Unreal Engine",
 										"React",
-										"MUI",
+										"Blender",
+										"C++",
+										"C#",
 										"Node.js",
 										"Figma",
 										"SQL",
-										"Python",
-										"C++",
 										"Git",
-										"Electron",
 									].map((tool) => (
 										<Chip
 											key={tool}
@@ -242,10 +244,8 @@ const About = () => {
 									What I'm working on
 								</Typography>
 								<Typography variant='body2' color='text.secondary'>
-									Sharpening animation fundamentals — timing, arcs, physics, and
-									expressive motion. Learning VFX & real-world physics sims.
-									Next up: Unreal Engine for real-time lighting, environments,
-									and interactive design.
+									Building gameplay systems and refining performance, rendering,
+									and real-time workflows in Unity and Unreal Engine.
 								</Typography>
 							</Paper>
 						</Stack>

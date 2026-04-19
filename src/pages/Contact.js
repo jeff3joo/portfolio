@@ -55,7 +55,7 @@ const Contact = () => {
 		];
 		const body = encodeURIComponent(bodyLines.join("\n"));
 		const mailto = `mailto:${encodeURIComponent(
-			to
+			to,
 		)}?subject=${encodeURIComponent(subject)}&body=${body}`;
 
 		window.open(mailto, "_blank");
@@ -154,8 +154,8 @@ const Contact = () => {
 											Jeffrin Rijo V C
 										</Typography>
 										<Typography variant='body2' color='text.secondary'>
-											3D Artist — stylized assets, product animations & polished
-											renders.
+											Game Developer — building gameplay systems, real-time
+											experiences, and performance-driven solutions.
 										</Typography>
 									</Box>
 								</Box>
