@@ -1,5 +1,5 @@
 import { Link as RouterLink } from "react-router-dom";
-import PortfolioGallery from "../components/PortfolioGallery";
+import Project from "../components/ProjectCategory";
 import { Box, Button, Container, Typography, Grid } from "@mui/material";
 
 const Home = () => {
@@ -58,16 +58,6 @@ const Home = () => {
 
 							<Box sx={{ display: "flex", gap: 2 }}>
 								<Button
-									variant='contained'
-									color='secondary'
-									component={RouterLink}
-									to='/projects'
-									sx={{ fontWeight: "bold" }}
-								>
-									Explore My Projects
-								</Button>
-
-								<Button
 									variant='outlined'
 									color='secondary'
 									component={RouterLink}
@@ -81,7 +71,22 @@ const Home = () => {
 					</Grid>
 				</Grid>
 			</Box>
-			<PortfolioGallery limit={3} />
+			<Box
+				sx={{
+					display: "flex",
+					justifyContent: "space-between",
+					my: 2,
+					alignItems: "center",
+				}}
+			>
+				<Typography
+					variant="h4"
+					sx={{ color: "secondary.main", fontWeight: 800 }}
+				>
+					Explore My Projects
+				</Typography>
+			</Box>
+			<Project />
 		</Container>
 	);
 };

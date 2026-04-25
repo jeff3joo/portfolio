@@ -66,6 +66,14 @@ function App() {
 								}
 							/>
 							<Route
+								path='/projects/category/:category'
+								element={
+									<PageWrapper>
+										<Projects />
+									</PageWrapper>
+								}
+							/>
+							<Route
 								path='/projects/:slug'
 								element={
 									<PageWrapper>

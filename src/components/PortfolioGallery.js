@@ -16,12 +16,12 @@ const CARD_WIDTH = 320;
 const CARD_HEIGHT = 360;
 const MEDIA_HEIGHT = 200;
 
-const PortfolioGallery = ({ limit }) => {
+const PortfolioGallery = ({ works: worksProp }) => {
 	const location = useLocation();
 	const onProjectsPage = location.pathname.startsWith("/projects");
 
 	const defaultLimit = onProjectsPage ? undefined : 3;
-	const items = works.slice(0, limit ?? defaultLimit);
+	const items = worksProp || works;
 
 	return (
 		<Container sx={{ py: 3 }}>

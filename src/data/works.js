@@ -10,6 +10,7 @@ const works = [
 			"/assets/projects/run-rail/run-rail.png",
 		],
 		tags: ["Game Dev", "Object Looping", "Endless Runner"],
+		project: "Game",
 	},
 	{
 		id: 2,
@@ -23,6 +24,7 @@ const works = [
 			"/assets/projects/battle-blaster/battle-blaster-1.png"
 		],
 		tags: ["Game Dev", "Projectile", "Camera Effects"],
+		project: "Game",
 	},
 	{
 		id: 3,
@@ -35,6 +37,7 @@ const works = [
 			"/assets/projects/shooter-sam/shooter-sam.mp4",
 		],
 		tags: ["Game Dev", "AI Enemy", "Shooting Game"],
+		project: "Game",
 	},
 	{
 		id: 4,
@@ -46,6 +49,7 @@ const works = [
 			"/assets/projects/object-assault/object-assault.mp4",	
 		],
 		tags: ["Game Dev", "Rotation", "Movement"],
+		project: "Game",
 	},
 	{
 		id: 5,
@@ -57,6 +61,7 @@ const works = [
 			"/assets/projects/dungeon-escape/dungeon-escape.mp4",
 		],
 		tags: ["Game Dev", "Trigger", "Projectile"],
+		project: "Game",
 	},
 	{
 		id: 6,
@@ -71,6 +76,7 @@ const works = [
 			"/assets/projects/game-animation/game_animation.png",
 		],
 		tags: ["3D Animation", "Low Poly", "Environment"],
+		project: "3D Model",
 	},
 	{
 		id: 7,
@@ -85,6 +91,7 @@ const works = [
 			"/assets/projects/wireless-pods/wireless_pods_animation.png",
 		],
 		tags: ["3D Product Animation", "Shading", "Hard Surface"],
+		project: "3D Model",
 	},
 	{
 		id: 8,
@@ -100,6 +107,7 @@ const works = [
 			"/assets/projects/dungeon/dungeon-2.png",
 		],
 		tags: ["3D Environment", "Modular Assets", "Stylized"],
+		project: "3D Model",
 	},
 	{
 		id: 9,
@@ -114,6 +122,7 @@ const works = [
 			"/assets/projects/flag-simulation/flag_simulation.png",
 		],
 		tags: ["3D Animation", "Cloth Simulation", "Shading"],
+		project: "3D Model",
 	},
 	{
 		id: 10,
@@ -125,6 +134,7 @@ const works = [
 		glb: "/assets/projects/light-house/light-house.glb",
 		renders: ["/assets/projects/light-house/light-house.png"],
 		tags: ["3D Model", "Lighting", "Stylized"],
+		project: "3D Model",
 	},
 	{
 		id: 11,
@@ -136,6 +146,7 @@ const works = [
 		glb: "/assets/projects/low_poly_dinosaur/low_poly_dinosaur.glb",
 		renders: ["/assets/projects/low_poly_dinosaur/low_poly_dinosaur.png"],
 		tags: ["3D Model", "Character", "Environment"],
+		project: "3D Model",
 	},
 	{
 		id: 12,
@@ -150,6 +161,7 @@ const works = [
 			"/assets/projects/plane-animation/plane-animation.png",
 		],
 		tags: ["3D Animation", "UV Mapping", "Modeling"],
+		project: "3D Model",
 	},
 	{
 		id: 13,
@@ -167,6 +179,7 @@ const works = [
 			"/assets/projects/popsicles/popsicle-2.png",
 		],
 		tags: ["3D Product Animation", "Shading", "Stylized"],
+		project: "3D Model",
 	},
 	{
 		id: 14,
@@ -178,6 +191,7 @@ const works = [
 		glb: "/assets/projects/portal/portal.glb",
 		renders: ["/assets/projects/portal/portal.png"],
 		tags: ["3D Game Asset", "Low Poly", "Stylized"],
+		project: "3D Model",
 	},
 	{
 		id: 15,
@@ -194,6 +208,7 @@ const works = [
 			"/assets/projects/sci-fi-environment/sci-fi-environment-3.png",
 		],
 		tags: ["3D Environment", "Sci-Fi", "Procedural Nodes"],
+		project: "3D Model",
 	},
 	{
 		id: 16,
@@ -208,6 +223,7 @@ const works = [
 			"/assets/projects/sculpt-cartoon-demon/sculpt-cartoon-demon.png",
 		],
 		tags: ["3D Sculpting", "Character", "Stylized"],
+		project: "3D Model",
 	},
 	{
 		id: 17,
@@ -222,6 +238,7 @@ const works = [
 			"/assets/projects/tv-walk-animation/tv-walk-animation.png",
 		],
 		tags: ["3D Animation", "Rigging", "Stylized"],
+		project: "3D Model",
 	},
 ];
 
