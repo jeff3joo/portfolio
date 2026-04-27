@@ -240,6 +240,24 @@ const works = [
 		tags: ["3D Animation", "Rigging", "Stylized"],
 		project: "3D Model",
 	},
+	{
+		id: 18,
+		slug: "weather-app",
+		title: "Weather App",
+		image: "/assets/projects/weather-app/weather-app.png",
+		url: "https://j3jweather.netlify.app/",
+		tags: ["API", "Web Development", "React"],
+		project: "Website",
+	},
+	{
+		id: 19,
+		slug: "rps",
+		title: "Rock Paper Scissors Game",
+		image: "/assets/projects/rps/rps.png",
+		url: "https://j3jrps.netlify.app/",
+		tags: ["Web Development", "React"],
+		project: "Website",
+	}
 ];
 
 export default works;

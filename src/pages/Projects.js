@@ -8,17 +8,20 @@ const Projects = () => {
 	const { slug, category } = useParams();
 
 	// Check if it's a category route
-	const categories = ["Games", "3D Models"];
+	const categories = ["Games", "3D Models", "Website"];
 	const isCategory = category && categories.includes(category);
 
 	// Filter works by category
 	const getFilteredWorks = () => {
 		if (!category) return null;
 		if (category === "Games") {
-			return works.filter((w) => w.tags.includes("Game Dev"));
+			return works.filter((w) => w.project === "Game");
 		}
 		if (category === "3D Models") {
-			return works.filter((w) => w.tags.some((t) => t.startsWith("3D")));
+			return works.filter((w) => w.project === "3D Model");
+		}
+		if (category === "Website") {
+			return works.filter((w) => w.project === "Website");
 		}
 		return null;
 	};

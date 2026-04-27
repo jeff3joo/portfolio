@@ -83,8 +83,13 @@ const PortfolioGallery = ({ works: worksProp }) => {
 								justifyContent: "center",
 							}}
 						>
-							<Card component={RouterLink} to={`/projects/${work.slug}`}
-								sx={{
+							<Card
+								component={work.project === "Website" ? "a" : RouterLink}
+								to={work.project !== "Website" ? `/projects/${work.slug}` : undefined}
+								href={work.project === "Website" ? work.url : undefined}
+								target={work.project === "Website" ? "_blank" : undefined}
+								rel={work.project === "Website" ? "noopener noreferrer" : undefined}
+  								sx={{
 									width: "100%",
 									maxWidth: `${CARD_WIDTH}px`,
 									height: `${CARD_HEIGHT}px`,
