@@ -84,11 +84,8 @@ const PortfolioGallery = ({ works: worksProp }) => {
 							}}
 						>
 							<Card
-								component={work.project === "Website" ? "a" : RouterLink}
-								to={work.project !== "Website" ? `/projects/${work.slug}` : undefined}
-								href={work.project === "Website" ? work.url : undefined}
-								target={work.project === "Website" ? "_blank" : undefined}
-								rel={work.project === "Website" ? "noopener noreferrer" : undefined}
+								component={RouterLink}
+								to={`/projects/${work.slug}`}
   								sx={{
 									width: "100%",
 									maxWidth: `${CARD_WIDTH}px`,

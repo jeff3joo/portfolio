@@ -21,6 +21,39 @@ const ProjectDetail = () => {
 		);
 	}
 
+	if (work.project === "Website") {
+		return (
+			<Container maxWidth='lg' sx={{ py: 4 }}>
+				<Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", mb: 2, flexWrap: "wrap", gap: 2 }}>
+					<Box>
+						<Typography variant='h4' sx={{ mb: 1 }}>{work.title}</Typography>
+						<Typography variant='subtitle1' color='text.secondary'>{work.description}</Typography>
+					</Box>
+					<Button
+						href={work.url}
+						target='_blank'
+						rel='noopener noreferrer'
+						variant='contained'
+						color='secondary'
+						size='large'
+					>
+						Visit Page
+					</Button>
+				</Box>
+				<Box sx={{ width: "100%", borderRadius: 2, overflow: "hidden", mb: 3 }}>
+					<img
+						src={work.image}
+						alt={work.title}
+						style={{ width: "100%", borderRadius: 8, display: "block" }}
+					/>
+				</Box>
+				<Button component={RouterLink} to='/projects/category/Website' variant='outlined' color='secondary'>
+					Back to projects
+				</Button>
+			</Container>
+		);
+	}
+
 	return (
 		<Container maxWidth='lg' sx={{ py: 4 }}>
 			<Typography variant='h4' sx={{ mb: 2 }}>

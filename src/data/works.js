@@ -3,7 +3,8 @@ const works = [
 		id: 1,
 		slug: "run-rail",
 		title: "Run Rail Game",
-		description: "Endless runner game with procedural level generation with object looping, dynamic obstacles built in Unity with C#",
+		description:
+			"Endless runner game with procedural level generation with object looping, dynamic obstacles built in Unity with C#",
 		image: "/assets/projects/run-rail/run-rail.png",
 		renders: [
 			"/assets/projects/run-rail/run-rail.mp4",
@@ -16,12 +17,13 @@ const works = [
 		id: 2,
 		slug: "battle-blaster",
 		title: "Battle Blaster Game",
-		description:"In this game I have used input systems, AI behavior, damage handling, UI widgets, timers, particles, audio — basically the “real dev stuff” behind the fun.",
+		description:
+			"In this game I have used input systems, AI behavior, damage handling, UI widgets, timers, particles, audio — basically the “real dev stuff” behind the fun.",
 		image: "/assets/projects/battle-blaster/battle-blaster.png",
 		renders: [
 			"/assets/projects/battle-blaster/battle-blaster.mp4",
 			"/assets/projects/battle-blaster/battle-blaster.png",
-			"/assets/projects/battle-blaster/battle-blaster-1.png"
+			"/assets/projects/battle-blaster/battle-blaster-1.png",
 		],
 		tags: ["Game Dev", "Projectile", "Camera Effects"],
 		project: "Game",
@@ -33,9 +35,7 @@ const works = [
 		description:
 			"This game went deep into third-person shooting mechanics, Sounds , animation systems, AI with Behavior Trees, combat logic, HUDs, level polish, animation, and AI into a shippable experience.",
 		image: "/assets/projects/shooter-sam/shooter-sam.png",
-		renders: [
-			"/assets/projects/shooter-sam/shooter-sam.mp4",
-		],
+		renders: ["/assets/projects/shooter-sam/shooter-sam.mp4"],
 		tags: ["Game Dev", "AI Enemy", "Shooting Game"],
 		project: "Game",
 	},
@@ -43,11 +43,10 @@ const works = [
 		id: 4,
 		slug: "object-assault",
 		title: "Object Assault Game",
-		description:"In this Game dived into the fundamentals that actually make a game move — from geometry brushes and live coding to vectors, delta time, actor movement, rotation, physics, and building reusable classes.",
+		description:
+			"In this Game dived into the fundamentals that actually make a game move — from geometry brushes and live coding to vectors, delta time, actor movement, rotation, physics, and building reusable classes.",
 		image: "/assets/projects/object-assault/object-assault.png",
-		renders: [
-			"/assets/projects/object-assault/object-assault.mp4",	
-		],
+		renders: ["/assets/projects/object-assault/object-assault.mp4"],
 		tags: ["Game Dev", "Rotation", "Movement"],
 		project: "Game",
 	},
@@ -55,11 +54,10 @@ const works = [
 		id: 5,
 		slug: "dungeon-escape",
 		title: "Dungeon Escape Game",
-		description:"In this game went deep into gameplay systems: actor components, pointers & references, delegates, collision, tracing, enhanced input, and clean C++ architecture with Blueprint integration. Built mechanics like pressure plates, locks, secret walls, and item-based progression.",
+		description:
+			"In this game went deep into gameplay systems: actor components, pointers & references, delegates, collision, tracing, enhanced input, and clean C++ architecture with Blueprint integration. Built mechanics like pressure plates, locks, secret walls, and item-based progression.",
 		image: "/assets/projects/dungeon-escape/dungeon-escape.png",
-		renders: [
-			"/assets/projects/dungeon-escape/dungeon-escape.mp4",
-		],
+		renders: ["/assets/projects/dungeon-escape/dungeon-escape.mp4"],
 		tags: ["Game Dev", "Trigger", "Projectile"],
 		project: "Game",
 	},
@@ -242,22 +240,40 @@ const works = [
 	},
 	{
 		id: 18,
-		slug: "weather-app",
-		title: "Weather App",
-		image: "/assets/projects/weather-app/weather-app.png",
-		url: "https://j3jweather.netlify.app/",
-		tags: ["API", "Web Development", "React"],
+		slug: "pulse-room",
+		title: "Pulse Room",
+		image: "/assets/projects/pulse-room/pulse-room.png",
+		url: "https://j3jpulseroom.netlify.app/",
+		description: "Real-time room-based chat platform with live user presence, typing indicators, and synchronized messaging.",
+		tags: ["Real-time", "WebSockets", "Socket.IO", "React", "Node.js"],
 		project: "Website",
 	},
 	{
 		id: 19,
+		slug: "weather-app",
+		title: "Weather App",
+		image: "/assets/projects/weather-app/weather-app.png",
+		url: "https://j3jweather.netlify.app/",
+		description: "Weather forecasting app that fetches real-time data from the OpenWeather API, allowing users to search for current weather conditions and forecasts by city name.",
+		tags: ["OpenWeather API", "Web Development", "React"],
+		project: "Website",
+	},
+	{
+		id: 20,
 		slug: "rps",
 		title: "Rock Paper Scissors Game",
 		image: "/assets/projects/rps/rps.png",
 		url: "https://j3jrps.netlify.app/",
-		tags: ["Web Development", "React"],
+		description: "Classic Rock-Paper-Scissors game implemented in React, featuring interactive UI, state management, and randomization for computer opponent moves.",
+		tags: [
+			"Game Logic",
+			"State Management",
+			"React",
+			"UI Interaction",
+			"Randomization",
+		],
 		project: "Website",
-	}
+	},
 ];
 
 export default works;
