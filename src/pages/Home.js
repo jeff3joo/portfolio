@@ -19,7 +19,7 @@ const Home = () => {
 								variant='overline'
 								sx={{ color: "secondary.main", fontWeight: 700, mb: 1 }}
 							>
-								Jeff — Full Stack Developer & Game Dev | 3D Designer
+								Jeff — Software Developer
 							</Typography>
 
 							<Typography
@@ -37,9 +37,8 @@ const Home = () => {
 									},
 								}}
 							>
-								Game Developer focused on gameplay systems and
-								performance-driven experiences, with 2+ years of Full Stack
-								development experience.
+								Full Stack Developer building scalable, real-time web
+								applications with React, Node.js, and modern technologies.
 							</Typography>
 
 							<Typography
@@ -51,9 +50,10 @@ const Home = () => {
 								}}
 								variant='h6'
 							>
-								Game developer focused on gameplay systems and real-time
-								experiences. Explore featured projects or dive into detailed
-								breakdowns of how each was built.
+								Full Stack Developer with 2+ years of total experience building
+								real-world products, from responsive interfaces and REST APIs to
+								real-time systems and C++ SDK integrations. I also explore game
+								development and interactive experiences in my free time.
 							</Typography>
 
 							<Box sx={{ display: "flex", gap: 2 }}>
@@ -80,7 +80,7 @@ const Home = () => {
 				}}
 			>
 				<Typography
-					variant="h4"
+					variant='h4'
 					sx={{ color: "secondary.main", fontWeight: 800 }}
 				>
 					Explore My Projects
